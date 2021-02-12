@@ -13,6 +13,7 @@ $ ./inst.ros.pepper.sh
 ```
 
 **Tutorials:**
+
 [ROS Kinetic](https://www.youtube.com/watch?v=LtHeyCBAE-8)
 
 [Pepper](https://www.youtube.com/watch?v=toLx_NlV4kA)
