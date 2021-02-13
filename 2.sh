@@ -111,10 +111,14 @@ cd pepper_sim_ws
 catkin_make &> /dev/null
 
 DOWN 100
-sleep 1
+echo "export PATH=$PATH:~/pepper_sim_ws/src/.shfiles" >> ~/.bashrc
+source ~/.bashrc
+echo "export ROS_PEPPER_SIM_WS=~/pepper_sim_ws" >> ~/.bashrc
+source ~/.bashrc
+echo "source $ROS_PEPPER_SIM_WS/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 
 dialog                                         \
    --title 'Complete installation.'                           \
-   --msgbox '\nPepper was successfully installed
-.'  \
+   --msgbox '\nPepper was successfully installed.'  \
    0 0
