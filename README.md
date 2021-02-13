@@ -9,9 +9,7 @@ $ sudo apt-get install dialog
 **Basic Operation:**
 ```
 $ cd scriptpepper
-$ chmod +x 1.sh
-$ chmod +x 2.sh
-$ chmod +x inst.ros.pepper.sh
+$ chmod a+x -v *.sh
 $ ./inst.ros.pepper.sh
 ```
 
