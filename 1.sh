@@ -66,6 +66,6 @@ GAUGE 100
 sleep 1
 
 dialog                                         \
-   --title 'Instalação completa.'                           \
-   --msgbox '\nO ROS Kinetic foi instalado com sucesso.'  \
+   --title 'Complete installation.'                           \
+   --msgbox '\nROS Kinetic was successfully installed.'  \
    0 0
