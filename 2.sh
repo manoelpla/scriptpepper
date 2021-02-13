@@ -103,7 +103,7 @@ mkdir -p pepper_sim_ws/src
 cd pepper_sim_ws/src
 
 DOWN 3
-git clone https://github.com/JoseDiazAmado/RUTAS---Pepper-Robots-Simutation tmp && mv tmp/.git . && rm -fr tmp && git reset --hard &> /dev/null
+git clone https://github.com/manoelpla/pepper_sim_ws.git tmp && mv tmp/.git . && rm -fr tmp && git reset --hard &> /dev/null
 
 DOWN 81
 cd
