@@ -111,8 +111,6 @@ cd pepper_sim_ws
 catkin_make &> /dev/null
 
 DOWN 100
-echo "export PATH=$PATH:~/pepper_sim_ws/src/.shfiles" >> ~/.bashrc
-source ~/.bashrc
 echo "export ROS_PEPPER_SIM_WS=~/pepper_sim_ws" >> ~/.bashrc
 source ~/.bashrc
 echo "source $ROS_PEPPER_SIM_WS/devel/setup.bash" >> ~/.bashrc
