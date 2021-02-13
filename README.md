@@ -1,7 +1,7 @@
 ROS Kinetec, Gazebo 7, Ubuntu 16.04 
 
 
-**Install:**
+**Install script:**
 ``` 
 $ sudo apt-get install dialog
 $ cd scriptpepper
