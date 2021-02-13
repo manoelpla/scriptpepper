@@ -1,8 +1,7 @@
 #! /bin/bash
 
-cd
 clear
-
+cd
 dialog                                         \
    --title 'Wait...'                           \
    --infobox '\nStarting ROS Kinetic installer...'  \
