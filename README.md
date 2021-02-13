@@ -4,10 +4,6 @@ ROS Kinetec, Gazebo 7, Ubuntu 16.04
 **Install:**
 ``` 
 $ sudo apt-get install dialog
-```
-
-**Basic Operation:**
-```
 $ cd scriptpepper
 $ chmod a+x -v *.sh
 $ ./inst.ros.pepper.sh
