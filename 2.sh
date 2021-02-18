@@ -46,7 +46,7 @@ sudo apt-get install ros-kinetic-octomap* -y &> /dev/null
 
 INSTA 58
 sudo apt-get install ros-kinetic-controller-manager -y &> /dev/null
-sudo apt-get install ros-kinetic-gmapping -y &> /dev/null
+sudo apt-get install ros-kinetic-gmapping* -y &> /dev/null
 
 INSTA 63
 sudo apt-get install python-wstool -y &> /dev/null
@@ -99,11 +99,9 @@ Downloading Pepper files' 0 0 0
 
 DOWN 0 
 cd
-mkdir -p pepper_sim_ws/src
-cd pepper_sim_ws/src
 
 DOWN 3
-git clone https://github.com/manoelpla/pepper_sim_ws.git tmp && mv tmp/.git . && rm -fr tmp && git reset --hard &> /dev/null
+git clone https://github.com/manoelpla/pepper_sim_ws.git
 
 DOWN 81
 cd
