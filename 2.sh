@@ -101,7 +101,7 @@ DOWN 0
 cd
 
 DOWN 3
-git clone https://github.com/manoelpla/pepper_sim_ws.git
+git clone https://github.com/manoelpla/pepper_basic_ws.git
 
 DOWN 81
 cd
